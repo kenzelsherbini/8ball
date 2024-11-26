@@ -50,7 +50,7 @@ function shakeMagic8Ball () {
 
       eightBall = 'It is certain'
 
-      imageChoice = 'image1.jpg'
+      imageChoice = '/imgs/imageog.jpg'
 
       break
 

@@ -40,7 +40,7 @@ function shakeMagic8Ball () {
 
   let eightBall = ''
 
-  let imageChoice = ''
+  let imageChoice = '';
 
 
 

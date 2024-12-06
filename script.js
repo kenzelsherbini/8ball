@@ -50,7 +50,7 @@ function shakeMagic8Ball () {
 
       eightBall = 'It is certain'
 
-      imageChoice = '/imgs/imageog.jpg'
+      imageChoice = '/imgs/8sayyes.jpg'
 
       break
 
@@ -102,7 +102,7 @@ function shakeMagic8Ball () {
   console.log(eightBall)
 
 
-  responseText.innerText = `${userName} has asked ${userQuestion} to the almighty 8 Ball. The 8 ball he replied ${eightBall}!`
+  responseText.innerText = `${userName} has asked ${userQuestion} to the almighty 8 Ball. The 8 ball has replied ${eightBall}!`
 
 
   responseImg.src = imageChoice

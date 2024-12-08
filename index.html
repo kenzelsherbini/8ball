@@ -20,38 +20,41 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="https://use.typekit.net/smr8qal.css">
     </head>
 
 
 <body>
 
     <header>
+        <div class="head rounded">
+           
+        <h1>Magic 8 Ball </h1>
 
-        <!-- place navbar here -->
+        <p id="greeting"> </p>
 
-    </header>
-
-    <main>
-
+        
 
         <div id="magic-8-ball">
 
-            <h1>Magic 8 Ball </h1>
 
-            <p id="greeting">
-
-
-            </p>
-
-            <p id="response-text" >
+            <p id="response-text" class="question">
 
                 Ask a question to the most glorious 8 Ball of wisdom...
 
             </p>
 
-            <img id="response-img" src="/imgs/imageog.jpg" alt="">
-            <button onclick="shakeMagic8Ball()" class="btn btn-success"> Click to Shake the 8ball </button>
+        </div>
+        </div>
+
+
+    </header>
+
+    <main>
+            <button onclick="shakeMagic8Ball()" class="btn"> Click to shake the 8-ball! </button>
+
+
+            <img id="response-img" src="/imgs/og.jpg" class="img-thumbnail mx-auto d-block img-fluid mb-5">
 
         </div>
 

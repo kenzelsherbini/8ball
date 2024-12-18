@@ -50,56 +50,56 @@ function shakeMagic8Ball () {
 
       eightBall = 'it is certain'
 
-      imageChoice = '/imgs/certain.jpg'
+      imageChoice = 'imgs/certain.jpg'
 
       break
 
     case 1:
 
       eightBall = 'it is decidedly so'
-      imageChoice = '/imgs/decide.jpg'
+      imageChoice = 'imgs/decide.jpg'
 
       break
 
     case 2:
 
       eightBall = 'reply hazy try again'
-      imageChoice = '/imgs/hazy.jpg'
+      imageChoice = 'imgs/hazy.jpg'
 
       break
 
     case 3:
 
       eightBall = 'cannot predict now'
-      imageChoice = '/imgs/predict.jpg'
+      imageChoice = 'imgs/predict.jpg'
 
       break
 
     case 4:
 
       eightBall = 'do not count on it'
-      imageChoice = '/imgs/count.jpg'
+      imageChoice = 'imgs/count.jpg'
 
       break
 
     case 5:
 
       eightBall = 'my sources say no'
-      imageChoice = '/imgs/sources.jpg'
+      imageChoice = 'imgs/sources.jpg'
 
       break
 
     case 6:
 
       eightBall = 'signs point to yes'
-      imageChoice = '/imgs/signs.jpg'
+      imageChoice = 'imgs/signs.jpg'
 
       break
 
     case 7:
 
       eightBall = 'outlook not so good'
-      imageChoice = '/imgs/outlook.jpg'
+      imageChoice = 'imgs/outlook.jpg'
 
       break
 
